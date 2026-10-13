@@ -1,8 +1,6 @@
 from datetime import date,datetime
 from enum import Enum
 
-
-
 class TimeAndIdMixin:
     id:int
     created_at:datetime
